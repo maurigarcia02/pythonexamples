@@ -66,11 +66,13 @@ complex* FFT_simple(complex* x, int N /* must be a power of 2 */) {
 
     // Recursion hasta llegar a N=1
     E = FFT_simple(e, N/2);
+    // Media recursion --------------------------
+
     D = FFT_simple(d, N/2);
 
     //Final de recursion ------------------------
 
-    // Liberar espacio de algunas variables
+    // Liberar espacio, ya que devolvieron el valor.
     free(e);
     free(d);
 
