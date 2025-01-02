@@ -47,7 +47,7 @@ complex complex_mult(complex left, complex right) {
 //Funcion de fft
 =======
 //Holaaaa
-
+// Holaaaa perrittaaaa
 
 complex* FFT_simple(complex* x, int N /* must be a power of 2 */);
 
