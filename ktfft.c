@@ -44,6 +44,17 @@ complex complex_mult(complex left, complex right) {
 
 
 //Funcion de fft
+<<<<<<< HEAD
+=======
+=======
+//Holaaaa
+// Holaaaa perrittaaaa
+
+complex* FFT_simple(complex* x, int N /* must be a power of 2 */);
+
+
+>>>>>>> refs/remotes/origin/main
+>>>>>>> refs/remotes/origin/main
 complex* FFT_simple(complex* x, int N /* must be a power of 2 */) {
     complex* X = (complex*) malloc(sizeof(struct complex_t) * N);
 
